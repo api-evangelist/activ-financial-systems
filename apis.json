@@ -1,0 +1,59 @@
+{
+    "name": "ACTIV Financial Systems",
+    "description": "ACTIV Financial is a leading financial market data vendor delivering complete market data systems, full market data management and global coverage.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/activ_financial_0.png",
+    "tags": [
+        "api crap",
+        "financial",
+        "financial services",
+        "have api",
+        "no api definition"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/activ-financial-systems\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "ACTIV Financial Systems",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/activ_financial_0.png",
+            "humanURL": "http:\/\/www.activfinancial.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/activ-financial-systems-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/activ-financial"
+        },
+        {
+            "type": "Email",
+            "url": "support@activfinancial.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@activfinancial.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales.europe@activfinancial.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales.asia@activfinancial.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.activfinancial.com"
+        }
+    ]
+}
