@@ -1,0 +1,74 @@
+generated: '2026-07-22'
+method: searched
+source: https://www.npmjs.com/search?q=activfinancial
+note: ACTIV publishes its market-data example applications as embeddable Web Components
+  on npm (the one-api-examples repo notes the Examples section is built using Web
+  Components so custom HTML elements can be imported into existing projects). Hosted
+  versions run at https://weboneapi.activfinancial.com/examples. Two generations
+  exist - oneapi-* components against the OnePlatform Web API, and the earlier cg-api
+  viewer components against the ContentGateway API.
+docs: https://weboneapi.activfinancial.com/examples
+families:
+- family: OnePlatform (one-api) web components
+  loader: "@activfinancial/one-api"
+  components:
+  - name: "@activfinancial/oneapi-record-viewer"
+    description: A simple record viewer using one-api.
+    url: https://www.npmjs.com/package/@activfinancial/oneapi-record-viewer
+  - name: "@activfinancial/oneapi-montage-viewer"
+    description: A simple montage display using one-api.
+    url: https://www.npmjs.com/package/@activfinancial/oneapi-montage-viewer
+  - name: "@activfinancial/oneapi-option-chain"
+    description: A simple option chain display using one-api.
+    url: https://www.npmjs.com/package/@activfinancial/oneapi-option-chain
+  - name: "@activfinancial/oneapi-orderbook-viewer"
+    description: A simple orderbook display using one-api.
+    url: https://www.npmjs.com/package/@activfinancial/oneapi-orderbook-viewer
+  - name: "@activfinancial/oneapi-time-series-graph"
+    description: A simple graph of time series data using one-api.
+    url: https://www.npmjs.com/package/@activfinancial/oneapi-time-series-graph
+- family: ContentGateway (cg-api) viewer components
+  loader: "@activfinancial/cg-api"
+  components:
+  - name: "@activfinancial/record-viewer"
+    description: A simple record viewer using the cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/record-viewer
+  - name: "@activfinancial/montage-viewer"
+    description: A simple montage display using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/montage-viewer
+  - name: "@activfinancial/option-chain"
+    description: A simple option chain display using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/option-chain
+  - name: "@activfinancial/news-viewer"
+    description: A simple news viewer using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/news-viewer
+  - name: "@activfinancial/tpi-viewer"
+    description: A simple TPI viewer using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/tpi-viewer
+  - name: "@activfinancial/time-series-chart"
+    description: A simple time series chart of closing prices using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/time-series-chart
+  - name: "@activfinancial/get-match"
+    description: A simple node record viewer using the cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/get-match
+  - name: "@activfinancial/get-history"
+    description: A simple node example of some TimeSeries requests using the cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/get-history
+  - name: "@activfinancial/cg-api-explorer"
+    description: ACTIV ContentGateway API Explorer.
+    url: https://www.npmjs.com/package/@activfinancial/cg-api-explorer
+- family: Third-party charting integrations
+  loader: "@activfinancial/cg-api"
+  components:
+  - name: "@activfinancial/chartiq-adapter"
+    description: Implementations of ChartIQ feed interfaces using cg-api.
+    url: https://www.npmjs.com/package/@activfinancial/chartiq-adapter
+  - name: "@activfinancial/chartiq-sample"
+    description: ChartIQ cg-api integration demo.
+    url: https://www.npmjs.com/package/@activfinancial/chartiq-sample
+- family: Desktop container
+  loader: OpenFin
+  components:
+  - name: "@activfinancial/activ-workstation"
+    description: An OpenFin container of the cg-api samples.
+    url: https://www.npmjs.com/package/@activfinancial/activ-workstation

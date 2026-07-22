@@ -1,0 +1,24 @@
+generated: '2026-07-22'
+method: searched
+source: https://status.options-it.com
+note: ACTIV Financial operates under Options Technology (acquired 2021); platform
+  operational status is published on the Options Technology status page. The One
+  API SDK is versioned with semver on npm (@activfinancial/one-api, 1.1.4 as of
+  2026-03-10; cg-api 0.16.1 as of 2025-11-13). No public deprecation policy,
+  Sunset/Deprecation header support, or SLA document was found - support and SLAs
+  are handled contractually through the Options Technology 24/7 support desk.
+status_page: https://status.options-it.com
+versioning:
+  scheme: semver (npm SDK releases)
+  current: '@activfinancial/one-api 1.1.4'
+  docs: https://www.npmjs.com/package/@activfinancial/one-api
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: ContentGateway (cg-api) is the earlier API generation; OnePlatform (one-api)
+    is the current one. No published deprecation policy found.
+sla:
+  url: null
+  note: enterprise/contractual; https://www.options-it.com/support advertises global
+    24/7 technical support.
+deprecated_operations: []

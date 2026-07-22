@@ -1,0 +1,39 @@
+generated: '2026-07-22'
+method: searched
+source: https://weboneapi.activfinancial.com/documentation/session/connect
+docs: https://weboneapi.activfinancial.com/tutorials
+note: The OnePlatform Web API (One API) is not a REST API and publishes no OpenAPI
+  securitySchemes; authentication is credential-based at WebSocket session connect.
+  The published ConnectParameters contract (session/connect) takes host, user, and
+  password; connect() establishes a session to a OneApi Gateway and rejects with
+  StatusCode values such as invalidUser, invalidPassword, accessDenied, and
+  notLicensed on failure. Gateway hosts and credentials are provisioned per customer
+  by ACTIV/Options Technology - there is no self-serve sign-up, OAuth, or API-key
+  scheme documented. Market data access is further entitled per user (permissionId,
+  notPermissioned status codes).
+summary:
+  types:
+  - credentials
+  transport: websocket
+  oauth2_flows: []
+  api_key_in: []
+  self_serve_signup: false
+schemes:
+- name: OneApiGatewayCredentials
+  type: credentials
+  description: user + password supplied in ConnectParameters when calling connect()
+    against a customer-provisioned OneApi Gateway host; session-scoped, one active
+    session at a time.
+  parameters:
+  - name: host
+    description: The host to connect to (customer-provisioned OneApi Gateway).
+    required: false
+  - name: user
+    description: The username to connect with.
+    required: false
+  - name: password
+    description: The password for the user.
+    required: false
+  sources:
+  - https://weboneapi.activfinancial.com/documentation/session/connect
+  - https://unpkg.com/@activfinancial/one-api@1.1.4/lib/docs.json

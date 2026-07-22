@@ -1,0 +1,53 @@
+generated: '2026-07-22'
+method: searched
+note: Live probes of the /.well-known/ discovery surface on every known host. No
+  well-known documents are published; www.activfinancial.com 302-redirects every
+  path to the Options Technology marketing site (ACTIV was acquired by Options
+  Technology in 2021), so its 302s are redirects to the homepage, not documents.
+  Absence recorded as valid probe data.
+hosts:
+- host: https://weboneapi.activfinancial.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://www.options-it.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://www.activfinancial.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 302
+    note: redirect to https://www.options-it.com/ homepage, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 302
+    note: redirect to homepage, not a document
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+    note: redirect to homepage, not a document
+  - path: /.well-known/api-catalog
+    status: 302
+    note: redirect to homepage, not a document
+  - path: /.well-known/ai-plugin.json
+    status: 302
+    note: redirect to homepage, not a document

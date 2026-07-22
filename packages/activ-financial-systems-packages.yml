@@ -1,0 +1,60 @@
+generated: '2026-07-22'
+method: searched
+source: https://www.npmjs.com/search?q=activfinancial
+note: All packages are published under the @activfinancial npm scope by ACTIV Financial
+  Systems, Inc. (now part of Options Technology). The One API packages (OnePlatform)
+  were still being updated as of March 2026; the cg-api (ContentGateway) family is the
+  earlier generation. No first-party packages found on PyPI, NuGet, Maven Central,
+  RubyGems, Packagist, or crates.io.
+packages:
+- language: javascript
+  registry: npm
+  name: "@activfinancial/one-api"
+  url: https://www.npmjs.com/package/@activfinancial/one-api
+  install: npm install @activfinancial/one-api
+  official: true
+  description: A JavaScript API (with TypeScript definitions) to access the ACTIV OnePlatform.
+  latest: 1.1.4
+  last_published: '2026-03-10'
+  license: CC-BY-ND-4.0
+  repository: https://github.com/activfinancial/one-api
+- language: javascript
+  registry: npm
+  name: "@activfinancial/cg-api"
+  url: https://www.npmjs.com/package/@activfinancial/cg-api
+  install: npm install @activfinancial/cg-api
+  official: true
+  description: A JavaScript API (with TypeScript definitions) to access the ACTIV ContentGateway.
+  latest: 0.16.1
+  last_published: '2025-11-13'
+  license: CC-BY-ND-4.0
+  repository: https://github.com/activfinancial/cg-api
+- language: javascript
+  registry: npm
+  name: "@activfinancial/cg-api-common"
+  url: https://www.npmjs.com/package/@activfinancial/cg-api-common
+  install: npm install @activfinancial/cg-api-common
+  official: true
+  description: Interface definitions for the ACTIV ContentGateway API.
+- language: javascript
+  registry: npm
+  name: "@activfinancial/cg-api-fsbl"
+  url: https://www.npmjs.com/package/@activfinancial/cg-api-fsbl
+  install: npm install @activfinancial/cg-api-fsbl
+  official: true
+  description: ContentGateway API packaged for Finsemble (FSBL) container environments.
+- language: javascript
+  registry: npm
+  name: "@activfinancial/cg-api-json"
+  url: https://www.npmjs.com/package/@activfinancial/cg-api-json
+  install: npm install @activfinancial/cg-api-json
+  official: true
+  description: Implementations of some cg-api interfaces using JSON data.
+- language: javascript
+  registry: npm
+  name: "@activfinancial/middleware"
+  url: https://www.npmjs.com/package/@activfinancial/middleware
+  install: npm install @activfinancial/middleware
+  official: true
+  description: ACTIV Middleware definitions.
+  last_published: '2023-08-07'

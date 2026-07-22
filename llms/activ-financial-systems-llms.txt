@@ -1,0 +1,36 @@
+# ACTIV Financial Systems
+
+> Provider of real-time and historical financial market data, best known for the ACTIV Feed consolidated multi-asset feed and the OnePlatform. Acquired by Options Technology in 2021; market data capabilities are now delivered as part of the Options Atlas platform. The current public developer surface is the OnePlatform Web API (One API) — a WebSocket/WebAssembly JavaScript API for streaming, snapshot, query, and time-series market data.
+
+Authentication is user/password credentials on session connect to a customer-provisioned OneApi Gateway; there is no self-serve sign-up, OAuth, or API-key scheme. The API is a session contract (connect → Session → snapshot/subscribe/query/timeSeries), not REST, so no OpenAPI is published; the machine-readable contract is the TypeDoc JSON shipped inside the @activfinancial/one-api npm package.
+
+## APIs
+
+- [One API developer portal](https://weboneapi.activfinancial.com/): documentation, tutorials, examples, and playground for the OnePlatform Web API
+- [API reference](https://weboneapi.activfinancial.com/documentation): TypeDoc-style reference (Session, snapshot, subscribe, query, timeSeries, marketdata constants)
+- [Getting started tutorial](https://weboneapi.activfinancial.com/tutorials): install, connect, requests
+- [Playground](https://weboneapi.activfinancial.com/playground): in-browser try-it surface
+- [Hosted examples](https://weboneapi.activfinancial.com/examples): example web components (record viewer, montage, option chain, orderbook, time series)
+
+## Packages
+
+- [@activfinancial/one-api](https://www.npmjs.com/package/@activfinancial/one-api): JavaScript/TypeScript API for the ACTIV OnePlatform (current generation)
+- [@activfinancial/cg-api](https://www.npmjs.com/package/@activfinancial/cg-api): JavaScript/TypeScript API for the ACTIV ContentGateway (earlier generation)
+- [npm @activfinancial scope](https://www.npmjs.com/search?q=activfinancial): 25 first-party packages including embeddable viewer web components
+- [one-api-examples on GitHub](https://github.com/activfinancial/one-api-examples): open-source example applications
+
+## Company
+
+- [Options Technology](https://www.options-it.com/): parent company since 2021 (www.activfinancial.com redirects here)
+- [Support](https://www.options-it.com/support): global 24/7 technical support
+- [Status page](https://status.options-it.com): platform operational status
+- [News](https://www.options-it.com/news)
+- [Privacy statement](https://www.options-it.com/privacy)
+
+## Catalog artifacts (API Evangelist)
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/apis.yml): APIs.json profile of this provider
+- [Error codes](https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/errors/activ-financial-systems-error-codes.yml): 98-member StatusCode registry captured from the published TypeDoc contract
+- [Authentication profile](https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/authentication/activ-financial-systems-authentication.yml)
+- [Packages](https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/packages/activ-financial-systems-packages.yml)
+- [Components](https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/components/activ-financial-systems-components.yml)

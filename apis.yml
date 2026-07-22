@@ -1,8 +1,15 @@
 aid: activ-financial-systems
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activ-financial-systems.png
 name: ACTIV Financial Systems
-description: 'ACTIV Financial Systems is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'ACTIV Financial Systems is a provider of real-time and historical financial market data,
+  best known for the ACTIV Feed consolidated multi-asset market data feed delivering global equities, options,
+  futures, foreign exchange, and fixed income content with associated analytics and low-latency delivery to
+  trading firms, banks, and financial applications. ACTIV Financial was acquired by Options Technology
+  (Options-IT) in 2021 and its market data capabilities are delivered as part of the Options Atlas platform;
+  www.activfinancial.com now redirects to www.options-it.com. A live public developer surface remains: the
+  OnePlatform Web API (One API), a WebSocket/WebAssembly JavaScript API with a developer portal at
+  weboneapi.activfinancial.com and 25 first-party packages on npm under the @activfinancial scope, with
+  gateway hosts and credentials provisioned per customer rather than self-serve.'
 url: https://raw.githubusercontent.com/api-evangelist/activ-financial-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: bessemer-venture-partners-portfolio
@@ -10,11 +17,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-22'
+x-acquired-by: options-technology
+x-acquirer-url: https://www.options-it.com
 tags:
 - Company
 - Fintech
-apis: []
+- Market Data
+- Financial Data
+- Real-Time Data
+- Streaming
+- WebSocket
+- Trading Infrastructure
+- Options Technology
+apis:
+- name: ACTIV OnePlatform Web API (One API)
+  description: WebSocket/WebAssembly JavaScript API for the ACTIV OnePlatform (Options Atlas),
+    delivering real-time streaming subscriptions, snapshots, queries, and time-series
+    (tick, intraday bar, history bar) market data through a session contract (connect
+    to a OneApi Gateway, then Session.snapshot/subscribe/query/timeSeries). Not REST -
+    the machine-readable contract is the TypeDoc JSON shipped in the
+    "@activfinancial/one-api" npm package.
+  humanURL: https://weboneapi.activfinancial.com/
+  baseURL: https://weboneapi.activfinancial.com
+  tags:
+  - Market Data
+  - Real-Time Data
+  - Streaming
+  - WebSocket
+  - Time Series
+  properties:
+  - type: Documentation
+    url: https://weboneapi.activfinancial.com/documentation
+  - type: APIReference
+    url: https://weboneapi.activfinancial.com/documentation
+  - type: GettingStarted
+    url: https://weboneapi.activfinancial.com/tutorials
+  - type: Sandbox
+    url: https://weboneapi.activfinancial.com/playground
+  - type: SourceCode
+    url: https://github.com/activfinancial/one-api-examples
+  - type: ErrorCatalog
+    url: errors/activ-financial-systems-error-codes.yml
+  - type: Authentication
+    url: authentication/activ-financial-systems-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +69,48 @@ maintainers:
 common:
 - type: Website
   url: https://www.activfinancial.com
+- type: DeveloperPortal
+  url: https://weboneapi.activfinancial.com/
+- type: Documentation
+  url: https://weboneapi.activfinancial.com/documentation
+- type: APIReference
+  url: https://weboneapi.activfinancial.com/documentation
+- type: GettingStarted
+  url: https://weboneapi.activfinancial.com/tutorials
+- type: Sandbox
+  url: sandbox/activ-financial-systems-sandbox.yml
+- type: GitHubOrganization
+  url: https://github.com/activfinancial
+- type: Support
+  url: https://www.options-it.com/support
+- type: Blog
+  url: https://www.options-it.com/news
+- type: PrivacyPolicy
+  url: https://www.options-it.com/privacy
+- type: StatusPage
+  url: https://status.options-it.com
+- type: Lifecycle
+  url: lifecycle/activ-financial-systems-lifecycle.yml
+- type: Packages
+  url: packages/activ-financial-systems-packages.yml
+- type: SDKs
+  url: packages/activ-financial-systems-packages.yml
+- type: Components
+  url: components/activ-financial-systems-components.yml
+- type: ErrorCatalog
+  url: errors/activ-financial-systems-error-codes.yml
+- type: Authentication
+  url: authentication/activ-financial-systems-authentication.yml
+- type: WellKnown
+  url: well-known/activ-financial-systems-well-known.yml
+- type: LLMsTxt
+  url: llms/activ-financial-systems-llms.txt
+- type: DomainSecurity
+  url: security/activ-financial-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-22'
+  status: enriched
+  pass: round-2026-06-20
+  note: contract discovery found the live OnePlatform Web API portal (weboneapi.activfinancial.com),
+    25 first-party npm packages, TypeDoc contract in-package (no OpenAPI - WebSocket/WASM
+    session API), 98-member StatusCode registry, Options Technology status page.

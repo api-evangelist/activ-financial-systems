@@ -1,0 +1,23 @@
+generated: '2026-07-22'
+method: searched
+source: https://weboneapi.activfinancial.com/playground
+note: The One API developer portal ships a live in-browser Playground plus hosted
+  example applications, which serve as the public try-it surface for the OnePlatform
+  Web API. No public test credentials, magic test values, or test-vs-live key modes
+  are documented - gateway hosts and user/password credentials are provisioned per
+  customer, and the docs publish no sandbox credential set. Recorded honestly;
+  nothing invented.
+surfaces:
+- name: Playground
+  url: https://weboneapi.activfinancial.com/playground
+  description: In-browser playground for exercising the One API against a OneApi
+    Gateway session.
+- name: Hosted examples
+  url: https://weboneapi.activfinancial.com/examples
+  description: Hosted builds of the open-source example web components (record
+    viewer, montage viewer, option chain, orderbook viewer, time series graph).
+- name: Example source
+  url: https://github.com/activfinancial/one-api-examples
+  description: Public GitHub repository of the example applications.
+test_credentials: none published
+test_values: none published
