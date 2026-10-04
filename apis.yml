@@ -1,14 +1,17 @@
 aid: activ-financial-systems
 deliveryModel:
   model: library
-  open_source: false
+  license_evidence:
+    not_product:
+    - activfinancial/one-api-examples
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Library · distributed through package registries, no callable service
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
