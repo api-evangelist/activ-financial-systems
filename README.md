@@ -64,10 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ACTIV Financial Systems is a provider of real-time and historical financial market data, best known for the ACTIV Feed consolidated multi-asset feed and the OnePlatform. ACTIV was acquired by [Options Technology](https://www.options-it.com) in 2021 and its market data capabilities are delivered as part of the Options Atlas platform.
+ACTIV Financial Systems is a provider of real-time and historical financial market data, best known for the ACTIV Feed consolidated multi-asset market data feed delivering global equities, options, futures, foreign exchange, and fixed income content with associated analytics and low-latency delivery to trading firms, banks, and financial applications. ACTIV Financial was acquired by Options Technology (Options-IT) in 2021 and its market data capabilities are delivered as part of the Options Atlas platform; www.activfinancial.com now redirects to www.options-it.com. A live public developer surface remains: the OnePlatform Web API (One API), a WebSocket/WebAssembly JavaScript API with a developer portal at weboneapi.activfinancial.com and 25 first-party packages on npm under the @activfinancial scope, with gateway hosts and credentials provisioned per customer rather than self-serve.
 
-A live public developer surface remains: the **OnePlatform Web API (One API)** — a WebSocket/WebAssembly JavaScript API with a developer portal at [weboneapi.activfinancial.com](https://weboneapi.activfinancial.com/) (documentation, tutorials, examples, playground) and 25 first-party packages on npm under the [@activfinancial](https://www.npmjs.com/search?q=activfinancial) scope. Gateway hosts and credentials are provisioned per customer rather than self-serve. The API is a session contract (not REST), so no OpenAPI is published; the machine-readable contract is the TypeDoc JSON shipped in the `@activfinancial/one-api` package.
+**Areas:** Company · Fintech · Market Data · Financial Data · Real-Time Data · Streaming · WebSocket · Trading Infrastructure · Options Technology
 
-Profiled in the API Evangelist network via [apis.yml](apis.yml), with captured artifacts for packages, embeddable components, error/status codes, authentication, lifecycle, well-known probes, and domain security.
+## ACTIV Financial Systems on APIs.io
 
-Source: portfolio company of [bessemer-venture-partners](https://github.com/api-evangelist/bessemer-venture-partners) — https://www.activfinancial.com
+Everything profiled for ACTIV Financial Systems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/activ-financial-systems/](https://apis.io/providers/activ-financial-systems/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [ACTIV OnePlatform Web API (One API)](https://apis.io/apis/activ-financial-systems/activ-oneplatform-web-api-one-api/) — WebSocket/WebAssembly JavaScript API for the ACTIV OnePlatform (Options Atlas), delivering real-time streaming subscriptions, snapshots, queries, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Activ Financial Systems Authentication](https://apis.io/security/activ-financial-systems/activ-financial-systems-authentication/)
+- [Activ Financial Systems Domain Security](https://apis.io/security/activ-financial-systems/activ-financial-systems-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.activfinancial.com)
+- [Documentation](https://weboneapi.activfinancial.com/documentation)
+- [Getting started](https://weboneapi.activfinancial.com/tutorials)
+- [API reference](https://weboneapi.activfinancial.com/documentation)
+- [Support](https://www.options-it.com/support)
+- [Blog](https://www.options-it.com/news)
+- [Privacy policy](https://www.options-it.com/privacy)
+- [GitHub](https://github.com/activfinancial)
+- [Status](https://status.options-it.com)
+
+## API Evangelist rating
+
+**Kin Score 24.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 5.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.8** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/activ-financial-systems/](https://apis.io/providers/activ-financial-systems/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ACTIV Financial Systems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/activ-financial-systems/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
