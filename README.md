@@ -84,8 +84,8 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Activ Financial Systems Authentication](https://apis.io/security/activ-financial-systems/activ-financial-systems-authentication/)
-- [Activ Financial Systems Domain Security](https://apis.io/security/activ-financial-systems/activ-financial-systems-domain-security/)
+- [ACTIV Financial Systems Authentication](https://apis.io/security/activ-financial-systems/activ-financial-systems-authentication/)
+- [ACTIV Financial Systems Domain Security](https://apis.io/security/activ-financial-systems/activ-financial-systems-domain-security/)
 
 ## Where to find this API
 
@@ -103,18 +103,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 24.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 24.0** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 73.2 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 10.5 |
+| Operational transparency | 11.9 |
 | Developer ergonomics | 71.4 |
-| Access clarity | 10.5 |
+| Access clarity | 12.8 |
 
-**Agent readiness 5.4** — agent-aware
+**Agent readiness 5.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -137,8 +137,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 14.8** — Securities & Market Data
+**Regulatory alignment 9.3** — Securities & Market Data
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/activ-financial-systems/](https://apis.io/providers/activ-financial-systems/).
 
